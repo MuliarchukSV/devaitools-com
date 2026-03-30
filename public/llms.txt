@@ -1,0 +1,18 @@
+# DevAITools.com
+
+> AI tools, APIs, and development resources for software engineers
+
+DevAITools.com is an independent resource covering AI development tools, APIs, coding assistants, MCP servers, prompt engineering, and practical guides for software engineers integrating AI into their workflows.
+
+## Topics
+- AI coding assistants (Claude Code, GitHub Copilot, Cursor, Windsurf)
+- LLM APIs and SDKs (Claude API, OpenAI, Gemini, open-source models)
+- MCP (Model Context Protocol) development and servers
+- AI testing and evaluation frameworks
+- Prompt engineering patterns and best practices
+- AI-powered DevOps and CI/CD tools
+- Code review and quality tools with AI
+
+## Contact
+- Website: https://devaitools.com
+- Publisher: FlipFactory Editorial Team
