@@ -26,7 +26,7 @@ The Claude 3.5 Haiku release in late 2024 surprised the market by matching Claud
 
 On the HumanEval coding benchmark — the standard measure for Python code generation — Claude 3.5 Haiku scored approximately 88%. Early internal data from Anthropic suggests Claude 4.5 Haiku pushes past 90%, closing within a few percentage points of Sonnet-class models that cost 3–5x more per million tokens. On the Berkeley Function-Calling Leaderboard (BFCL), which measures accurate tool invocation, Haiku 4.5 shows measurable gains in both single-call and parallel-call scenarios.
 
-Latency improvements are equally significant. Time-to-first-token (TTFT) — the metric that determines how snappy a streaming response feels — drops noticeably compared to Haiku 3.5. For chat interfaces and voice-adjacent applications where users perceive anything over 800ms as sluggish, this matters directly to product quality.
+Latency improvements are equally significant. Time-to-first-token (TTFT), the metric that determines how snappy a streaming response feels, drops noticeably compared to Haiku 3.5. For chat interfaces and voice-adjacent applications where users perceive anything over 800ms as sluggish, this matters directly to product quality.
 
 The 200,000-token context window remains unchanged from the Claude 4 family, giving Haiku 4.5 the same large-context capability as Sonnet at a lower price tier.
 
@@ -76,7 +76,7 @@ For teams already on Claude 3.5 Haiku in production, the migration path is a con
 
 ## Tool Use and Agentic Loops: Where Haiku 4.5 Earns Its Keep
 
-The most commercially significant improvement in Claude 4.5 Haiku is in tool use — specifically, the reliability with which it selects the right tool, formats arguments correctly, and handles the response to chain the next step.
+The most commercially significant improvement in Claude 4.5 Haiku is in tool use. Specifically: the reliability with which it selects the right tool, formats arguments correctly, and handles the response to chain the next step.
 
 Agentic pipelines built on Claude 3.x Haiku often required a "verification" step after tool calls: check that the model filled required parameters, re-prompt if it hallucinated an argument name, and handle malformed JSON. Haiku 4.5 reduces these failure modes meaningfully.
 
@@ -120,7 +120,7 @@ response = client.messages.create(
 )
 ```
 
-Haiku 4.5 handles this class of multi-step investigation reliably, making it a credible default for code review bots, CI pipeline commenters, and lightweight coding assistants where Sonnet's reasoning depth is overkill.
+Haiku 4.5 handles this class of multi-step investigation reliably. It works well as the default for code review bots, CI pipeline commenters, and lightweight coding assistants where Sonnet's reasoning depth is overkill.
 
 ---
 
@@ -160,11 +160,11 @@ Moving a production deployment to Claude 4.5 Haiku is low-risk but benefits from
 
 ## What This Release Signals About the AI Model Market
 
-Claude 4.5 Haiku is not just a product update — it reflects a broader structural shift in the LLM market. Eighteen months ago, "fast and cheap" meant accepting significant quality degradation. Today, the fastest model in a family is competitive with the flagship model from the previous generation.
+Claude 4.5 Haiku reflects a broader structural shift in the LLM market. Eighteen months ago, "fast and cheap" meant accepting significant quality degradation. Today, the fastest model in a family is competitive with the flagship model from the previous generation.
 
 This compression of the performance curve has two consequences for developers. First, the default choice for any new project should start at Haiku and escalate based on evidence, not assumption. Second, the economic case for fine-tuned or self-hosted smaller models weakens further every time Anthropic ships a Haiku release. The maintenance cost of running a fine-tuned 7B model may no longer justify the savings when Haiku 4.5 handles the task reliably at low latency via API.
 
-Anthropic's trajectory — releasing stronger small models at lower prices with each generation — also raises the floor for the entire market. OpenAI's GPT-4o mini and Google's Gemini Flash face direct pressure from Haiku 4.5 across coding and tool-use benchmarks, the two capabilities most developers actually measure.
+Anthropic's trajectory, releasing stronger small models at lower prices with each generation, also raises the floor for the entire market. OpenAI's GPT-4o mini and Google's Gemini Flash face direct pressure from Haiku 4.5 on coding and tool-use benchmarks. Those are the two capabilities most developers actually measure.
 
 For teams building on top of AI APIs, the meta-lesson is the same one that applied to cloud compute a decade ago: the commodity tier keeps getting more capable, and betting on the premium tier as a permanent requirement is increasingly hard to justify.
 
