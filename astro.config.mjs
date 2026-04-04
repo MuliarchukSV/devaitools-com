@@ -12,7 +12,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        'blog.config.ts': new URL('./blog.config.ts', import.meta.url).pathname,
+        '../../blog.config.ts': new URL('./blog.config.ts', import.meta.url).pathname,
+        '../../../blog.config.ts': new URL('./blog.config.ts', import.meta.url).pathname,
       }
     }
   }
