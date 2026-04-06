@@ -2,6 +2,7 @@ import type { BlogConfig } from './template/blog.config.ts';
 
 const config: BlogConfig = {
   name: "DevAITools.com",
+  homeTitle: "AI Tools for Developers — Reviews, APIs & Guides | DevAITools.com",
   description: "AI tools, APIs, and development resources for software engineers",
   site: "https://devaitools.com",
   language: "en",
