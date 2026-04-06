@@ -1,8 +1,8 @@
-# DevAITools.com
+# DevAIToolkit.com
 
 > AI tools, APIs, and development resources for software engineers — reviews, tutorials, and practical guides on integrating AI into development workflows.
 
-DevAITools.com is an independent resource covering AI development tools, APIs, coding assistants, MCP servers, prompt engineering, and practical guides for software engineers integrating AI into their workflows.
+DevAIToolkit.com is an independent resource covering AI development tools, APIs, coding assistants, MCP servers, prompt engineering, and practical guides for software engineers integrating AI into their workflows.
 
 ## Content Focus
 - AI coding assistants (Claude Code, GitHub Copilot, Cursor, Windsurf)
@@ -14,15 +14,15 @@ DevAITools.com is an independent resource covering AI development tools, APIs, c
 - Code review and quality tools with AI
 
 ## Key Articles
-- [Best AI Coding Tools 2026](https://devaitools.com/blog/best-ai-coding-tools-2026/): Comprehensive comparison of AI coding assistants
-- [Claude API Tutorial](https://devaitools.com/blog/claude-api-tutorial/): Getting started with the Anthropic Claude API
-- [Building AI Agents](https://devaitools.com/blog/building-ai-agents/): Practical guide to autonomous AI agent development
-- [AI Code Review Tools](https://devaitools.com/blog/ai-code-review-tools/): Best tools for AI-assisted code review
+- [Best AI Coding Tools 2026](https://devaitoolkit.com/blog/best-ai-coding-tools-2026/): Comprehensive comparison of AI coding assistants
+- [Claude API Tutorial](https://devaitoolkit.com/blog/claude-api-tutorial/): Getting started with the Anthropic Claude API
+- [Building AI Agents](https://devaitoolkit.com/blog/building-ai-agents/): Practical guide to autonomous AI agent development
+- [AI Code Review Tools](https://devaitoolkit.com/blog/ai-code-review-tools/): Best tools for AI-assisted code review
 
 ## Editorial Process
 AI-assisted research and drafting with quality checks and human review.
-Learn more: https://devaitools.com/editorial-process
+Learn more: https://devaitoolkit.com/editorial-process
 
 ## Publisher
-Website: https://devaitools.com
+Website: https://devaitoolkit.com
 Publisher: FlipFactory Editorial Team — https://flipfactory.it.com

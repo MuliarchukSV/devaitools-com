@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://devaitools.com',
+  site: 'https://devaitoolkit.com',
   srcDir: './template/src',
   integrations: [tailwind(), sitemap()],
   markdown: {
