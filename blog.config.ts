@@ -9,6 +9,14 @@ const config: BlogConfig = {
   niche: "AI tools for developers, reviews",
   colors: { primary: "#8b5cf6", accent: "#f43f5e" },
   analytics: { plausibleDomain: "devaitoolkit.com" },
+  author: {
+    name: 'Sergii Muliarchuk',
+    url: 'https://flipfactory.it.com',
+    sameAs: [
+      'https://www.linkedin.com/in/sergii-muliarchuk/',
+      'https://github.com/MuliarchukSV',
+    ],
+  },
 };
 
 export default config;
